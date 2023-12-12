@@ -42,3 +42,4 @@ function nextGeneration(currentGeneration) {
   }
   return newGeneration;
 }
+
