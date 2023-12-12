@@ -23,3 +23,23 @@ function printBoard(board) {
   }
   console.log("\n");
 }
+
+function nextGeneration(currentGeneration) {
+  const newGeneration = [];
+  
+  for (let i = 0; i < rows; i++) {
+    newGeneration[i] = [];
+    for (let j = 0; j < columns; j++) {
+      const neighbors = countNeighbors(currentGeneration, i, j);
+      if (currentGeneration[i][j] === 1) {
+        // Reglas para células vivas
+        newGeneration[i][j] = neighbors === 2 || neighbors === 3 ? 1 : 0;
+      } else {
+        // Regla para células muertas
+        newGeneration[i][j] = neighbors === 3 ? 1 : 0;
+      }
+    }
+  }
+  return newGeneration;
+}
+
