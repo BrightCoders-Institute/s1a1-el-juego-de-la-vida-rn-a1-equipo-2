@@ -1,3 +1,4 @@
+// Juego de la vida
 // Cualquier célula viva con menos de dos vecinos vivos muere, como si fuera por falta de población.
 // Cualquier célula viva con más de tres vecinos vivos muere, como si fuera por sobre-población.
 // Cualquier célula viva con dos o tres vecinos vivos sobrevive a la siguiente generación.
