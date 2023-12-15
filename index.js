@@ -53,20 +53,20 @@ class GameOfLife {
   countNeighbors(x, y) {
     let count = 0;
     for (let i = -1; i <= 1; i++) {
-      for (let j = -1; j <= 1; j++) {
-        const newRow = x + i;
-        const newColumn = y + j;
-        if (
-          newRow >= 0 && newRow < this.rows
-          && newColumn >= 0 && newColumn < this.columns
-          && !(i === 0 && j === 0)
-        ) {
-          count += this.currentGeneration[newRow][newColumn];
+        for (let j = -1; j <= 1; j++) {
+            const newRow = x + i;
+            const newColumn = y + j;
+            if (
+                newRow >= 0 && newRow < this.rows &&
+                newColumn >= 0 && newColumn < this.columns &&
+                !(i === 0 && j === 0)
+            ) {
+                count += this.currentGeneration[newRow][newColumn];
+            }
         }
-      }
     }
     return count;
-  }
+}
 
   getPreviousGeneration() {
     return this.previousGeneration;
@@ -101,3 +101,5 @@ while (typeof neverDeclared === "undefined") {
   }
   generationCount++;
 }
+
+module.exports = GameOfLife ;

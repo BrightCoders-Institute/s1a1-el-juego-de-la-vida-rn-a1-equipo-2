@@ -16,3 +16,23 @@ Things you may want to cover:
 - Credits
 - Badges
   
+
+Step of Tests:
+
+installation:
+
+npm install --save-dev jest
+
+add the next in scripts "node_modules":
+
+{
+  "scripts": {
+    "test": "jest"
+  }
+}
+
+type of files accept:
+
+file.spec.js
+file.test.js
+
