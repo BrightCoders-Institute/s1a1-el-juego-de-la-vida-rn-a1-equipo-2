@@ -34,3 +34,4 @@ This project was developed by [Alondra Vanessa Covarrubias Nava, Jose Juan Herre
 
 ## Badges
 
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
