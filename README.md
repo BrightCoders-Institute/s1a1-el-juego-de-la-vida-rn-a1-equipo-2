@@ -1,8 +1,14 @@
-El Juego de la Vida
+#El Juego de la Vida
 
 Table of Contents
 
-Description Installation Usage Testing Credits Badges Description
+*Description 
+*Installation 
+*Usage 
+*Testing 
+*Credits 
+*Badges 
+*Description
 
 El Juego de la Vida is a project that aims to implement Conway's Game of Life. This is a cellular automaton devised by the mathematician John Conway, where each cell in a grid can be in one of two states, alive or dead, and evolves based on a set of rules.
 
