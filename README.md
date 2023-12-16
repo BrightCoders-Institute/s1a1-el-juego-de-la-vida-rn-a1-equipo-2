@@ -3,12 +3,12 @@
 
 ## Table of Contents
 
-*Description 
-*Installation 
-*Usage 
-*Testing 
-*Credits 
-*Badges
+* Description 
+* Installation 
+* Usage 
+* Testing 
+* Credits 
+* Badges
 
 
 ## Description
@@ -21,10 +21,14 @@ To get the project up and running, follow these steps:
 
 Clone the repository: bash Copy code git clone https://github.com/BrightCoders-Institute/s1a1-el-juego-de-la-vida-rn-a1-equipo-2.git Navigate to the project directory: bash Copy code cd your-repo Install dependencies: bash Copy code npm install Usage
 
+## Usage
+
 To use the project, follow these steps:
 
 Run the application:
 you need run the code with node.js, in terminal.
+
+## Testing
 
 To run tests, follow these steps:
 
@@ -34,8 +38,4 @@ This project was developed by [Alondra Vanessa Covarrubias Nava, Jose Juan Herre
 
 ## Badges
 
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-
-![Jest](https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white)
-
-![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Jest](https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
