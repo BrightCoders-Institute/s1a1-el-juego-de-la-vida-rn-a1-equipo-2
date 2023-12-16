@@ -7,7 +7,8 @@
 * Installation 
 * Usage 
 * Testing 
-* Credits 
+* Structure of Project
+* Contributors
 * Badges
 
 
@@ -33,8 +34,6 @@ you need run the code with node.js, in terminal.
 To run tests, follow these steps:
 
 Install Jest as a development dependency: bash Copy code npm install --save-dev jest Update the scripts section in your package.json file: json Copy code { "scripts": { "test": "jest" } } Create test files with names ending in .spec.js or .test.js (e.g., file.spec.js). Run the tests: bash Copy code npm test Credits
-
-This project was developed by [Alondra Vanessa Covarrubias Nava, Jose Juan Herrera Reyes, Fabian Daniel Preciado Martinez, Oliver Gabriel Visoso Flores, Carlos Alberto Calixto Engelberger].
 
 ## Structure of Project
 
@@ -69,6 +68,16 @@ This project was developed by [Alondra Vanessa Covarrubias Nava, Jose Juan Herre
     └── package.json
     └── styles.css
 ```
+
+## Contributors
+
+This project was developed by [Alondra Vanessa Covarrubias Nava, Jose Juan Herrera Reyes, Fabian Daniel Preciado Martinez, Oliver Gabriel Visoso Flores, Carlos Alberto Calixto Engelberger].
+
+Co-authored-by: Vanessa-Covarrubias-Nava <Vanessa.covarrubias.nava@gmail.com>
+Co-authored-by: CalixtoSD1117 <ccalixtoengelberger117@gmail.com>
+Co-authored-by: Jherrera11 <jherrera11@ucol.mx>
+Co-authored-by: fpreciado3 <fpreciado3@ucol.mx>
+Co-authored-by: VISOSO2403 <ovisosodev@gmail.com>
 
 ## Badges
 
