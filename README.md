@@ -71,14 +71,13 @@ Install Jest as a development dependency: bash Copy code npm install --save-dev 
 
 ## Contributors
 
-This project was developed by [Alondra Vanessa Covarrubias Nava, Jose Juan Herrera Reyes, Fabian Daniel Preciado Martinez, Oliver Gabriel Visoso Flores, Carlos Alberto Calixto Engelberger].
-
-Co-authored-by: Vanessa-Covarrubias-Nava <Vanessa.covarrubias.nava@gmail.com>
-Co-authored-by: CalixtoSD1117 <ccalixtoengelberger117@gmail.com>
-Co-authored-by: Jherrera11 <jherrera11@ucol.mx>
-Co-authored-by: fpreciado3 <fpreciado3@ucol.mx>
-Co-authored-by: VISOSO2403 <ovisosodev@gmail.com>
-
+This project was developed by [
+* Co-authored-by: Vanessa-Covarrubias-Nava <Vanessa.covarrubias.nava@gmail.com>
+* Co-authored-by: CalixtoSD1117 <ccalixtoengelberger117@gmail.com>
+* Co-authored-by: Jherrera11 <jherrera11@ucol.mx>
+* Co-authored-by: fpreciado3 <fpreciado3@ucol.mx>
+* Co-authored-by: VISOSO2403 <ovisosodev@gmail.com>
+].
 ## Badges
 
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Jest](https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
