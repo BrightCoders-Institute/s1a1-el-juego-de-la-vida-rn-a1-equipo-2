@@ -18,11 +18,11 @@ class GameOfLife {
   }
 
   printBoard(board) {
-    let output = '';
+    let output = "";
     for (let i = 0; i < this.rows; i++) {
-      let row = '';
+      let row = "";
       for (let j = 0; j < this.columns; j++) {
-        row += board[i][j] ? '■ ' : '□ ';
+        row += board[i][j] ? "■ " : "□ ";
       }
       output += `${row.trim()}\n`;
     }
@@ -53,20 +53,22 @@ class GameOfLife {
   countNeighbors(x, y) {
     let count = 0;
     for (let i = -1; i <= 1; i++) {
-        for (let j = -1; j <= 1; j++) {
-            const newRow = x + i;
-            const newColumn = y + j;
-            if (
-                newRow >= 0 && newRow < this.rows &&
-                newColumn >= 0 && newColumn < this.columns &&
-                !(i === 0 && j === 0)
-            ) {
-                count += this.currentGeneration[newRow][newColumn];
-            }
+      for (let j = -1; j <= 1; j++) {
+        const newRow = x + i;
+        const newColumn = y + j;
+        if (
+          newRow >= 0 &&
+          newRow < this.rows &&
+          newColumn >= 0 &&
+          newColumn < this.columns &&
+          !(i === 0 && j === 0)
+        ) {
+          count += this.currentGeneration[newRow][newColumn];
         }
+      }
     }
     return count;
-}
+  }
 
   getPreviousGeneration() {
     return this.previousGeneration;
@@ -85,21 +87,25 @@ class GameOfLife {
 }
 
 const game = new GameOfLife(10, 15);
-console.log('Primera Generación:');
+console.log("Primera Generación:");
 game.printBoard(game.currentGeneration);
 let generationCount = 1;
 
-while (typeof neverDeclared === "undefined") {
+while (typeof UndefinedIdentifier === "undefined") {
   game.nextGeneration();
   console.log(`Generación ${generationCount}:`);
   game.printBoard(game.currentGeneration);
 
   // Compara la generación actual con la anterior
-  if (game.arraysAreEqual(game.currentGeneration, game.getPreviousGeneration())) {
-    console.log('El juego se ha estabilizado. No se pueden hacer más generaciones.');
+  if (
+    game.arraysAreEqual(game.currentGeneration, game.getPreviousGeneration())
+  ) {
+    console.log(
+      "El juego se ha estabilizado. No se pueden hacer más generaciones."
+    );
     break;
   }
   generationCount++;
 }
 
-module.exports = GameOfLife ;
+module.exports = GameOfLife;
