@@ -36,6 +36,40 @@ Install Jest as a development dependency: bash Copy code npm install --save-dev 
 
 This project was developed by [Alondra Vanessa Covarrubias Nava, Jose Juan Herrera Reyes, Fabian Daniel Preciado Martinez, Oliver Gabriel Visoso Flores, Carlos Alberto Calixto Engelberger].
 
+## Structure of Project
+
+```
+└── 📁s1a1-el-juego-de-la-vida-rn-a1-equipo-2
+    └── .eslintrc.js
+    └── README.md
+    └── 📁__tests__
+        └── firsttest.test.js
+    └── 📁coverage
+        └── clover.xml
+        └── coverage-final.json
+        └── 📁lcov-report
+            └── base.css
+            └── block-navigation.js
+            └── favicon.png
+            └── index.html
+            └── index.js.html
+            └── prettify.css
+            └── prettify.js
+            └── sort-arrow-sprite.png
+            └── sorter.js
+        └── lcov.info
+    └── 📁img
+        └── logo.jpg
+        └── logo.png
+    └── index.html
+    └── index.js
+    └── instructions.md
+    └── jest.config.js
+    └── package-lock.json
+    └── package.json
+    └── styles.css
+```
+
 ## Badges
 
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Jest](https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
