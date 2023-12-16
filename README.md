@@ -1,4 +1,4 @@
-![BrightCoders](images/logo.jpg)
+![BrightCoders](img/logo.jpg)
 # El Juego de la Vida
 ***
 
